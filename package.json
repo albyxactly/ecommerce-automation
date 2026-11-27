@@ -1,4 +1,33 @@
 {
   "name": "ecommerce-automation",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "Playwright POM automation suite for automationexercise.com — Assessment II Task 3",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:happy": "npx playwright test --grep @happy",
+    "test:negative": "npx playwright test --grep @negative",
+    "test:headed": "HEADLESS=false npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report reports/html",
+    "test:chromium": "npx playwright test --project=chromium",
+    "report": "npx playwright show-report reports/html",
+    "lint:types": "npx tsc --noEmit"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "pom",
+    "automationexercise"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.11",
+    "dotenv": "^18.0.10",
+    "dotenv-cli": "^11.1.0",
+    "typescript": "^5.8.3",
+    "winston": "^3.19.0"
+  }
 }
