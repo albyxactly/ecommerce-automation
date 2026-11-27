@@ -1,0 +1,32 @@
+{
+  "validUser": {
+    "title": "Mr",
+    "name": "Auto Tester",
+    "password": "SecurePass@123",
+    "day": "15",
+    "month": "6",
+    "year": "1990",
+    "firstName": "Auto",
+    "lastName": "Tester",
+    "company": "Automation Co",
+    "address1": "123 Test Street",
+    "address2": "Suite 100",
+    "country": "India",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "zipcode": "400001",
+    "mobile": "9876543210"
+  },
+  "invalidCredentials": {
+    "email": "nonexistent.user@example.com",
+    "password": "WrongPassword999"
+  },
+  "duplicateEmailHint": "existing@example.com",
+  "fakePayment": {
+    "nameOnCard": "Auto Tester",
+    "cardNumber": "4111111111111111",
+    "cvc": "123",
+    "expiryMonth": "12",
+    "expiryYear": "2030"
+  }
+}
