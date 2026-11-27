@@ -1,0 +1,17 @@
+{
+  "validSearch": {
+    "keyword": "Blue Top",
+    "expectedPartialName": "Blue Top"
+  },
+  "alternateSearch": {
+    "keyword": "Men Tshirt",
+    "expectedPartialName": "Men Tshirt"
+  },
+  "invalidSearch": {
+    "keyword": "xyznonexistentproduct999qwerty",
+    "expectedMessage": "No products found"
+  },
+  "cartQuantity": {
+    "increaseTo": 3
+  }
+}
